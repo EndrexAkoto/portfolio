@@ -15,7 +15,7 @@ const Home = () => {
             I'm a Full Stack Software Engineering-Front-end
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have years of experince in the field of ict
+          I am a versatile professional in Full Stack Software Engineering with expertise in Front-end development and training in Information Technology. I hold certifications in CCNA Routing and Switching from the Cisco Certified Networking Academy, as well as specialized courses in Endpoint Security and CISCO Computer Hardware Basics. I have honed my analytical skills through programs in Data Analysis and Computer Operations, and gained proficiency in Technical Support Fundamentals and Google Analytics.
           </p>
 
           <div>
@@ -37,7 +37,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-full mx-auto w-2/3 md:w-full"
           />
         </div>
       </div>
