@@ -11,10 +11,10 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Software Engineering-Front-end
+          <h2 className="text-3xl sm:text-5xl font-bold text-white">
+          Full Stack Software Engineering-Front-end
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-400 py-70 max-w-md">
           I am a versatile professional in Full Stack Software Engineering with expertise in Front-end development and training in Information Technology. I hold certifications in CCNA Routing and Switching from the Cisco Certified Networking Academy, as well as specialized courses in Endpoint Security and CISCO Computer Hardware Basics. I have honed my analytical skills through programs in Data Analysis and Computer Operations, and gained proficiency in Technical Support Fundamentals and Google Analytics.
           </p>
 
