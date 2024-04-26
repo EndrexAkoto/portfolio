@@ -8,6 +8,7 @@ import nextjs from "../assets/nextjs.png"
 import graphql from "../assets/graphql.png"
 import github from "../assets/github.png"
 import tailwind from "../assets/tailwind.png"
+import bootstrap from "../assets/Bootstrap_logo.png"
 
 const Experience = () => {
   const techs = [
@@ -15,19 +16,19 @@ const Experience = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-orange-500",
+      style: "shadow-orange-600",
     },
     {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-blue-500",
+      style: "shadow-blue-600",
     },
     {
       id: 3,
       src: javascript,
       title: "JavaScript",
-      style: "shadow-yellow-500",
+      style: "shadow-yellow-600",
     },
     {
       id: 4,
@@ -39,7 +40,7 @@ const Experience = () => {
       id: 5,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-sky-400",
+      style: "shadow-sky-600",
     },
     {
       id: 6,
@@ -51,13 +52,19 @@ const Experience = () => {
       id: 7,
       src: graphql,
       title: "GraphQL",
-      style: "shadow-pink-400",
+      style: "shadow-pink-600",
     },
     {
       id: 8,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-gray-600",
+    },
+    {
+      id: 9,
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-purple-600",
     },
   ]
 
