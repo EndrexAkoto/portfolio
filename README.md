@@ -72,6 +72,6 @@ Stay tuned for updates on my latest projects and contributions!
 [![Phone](phone_icon.png)](tel:+254718424798)
 [![GitHub](github_icon.png)](https://github.com/EndrexAkoto)
 [![Facebook](facebook_icon.png)](https://www.facebook.com/your_facebook_username)
-[![Twitter](twitter_icon.png)](https://twitter.com/your_twitter_username)
-[![LinkedIn](linkedin_icon.png)](https://www.linkedin.com/in/your_linkedin_username)
+[![Twitter](twitter_icon.png)](https://twitter.com/martinakoto25)
+[![LinkedIn](linkedin_icon.png)](https://www.linkedin.com/in/endrex-akoto-02184b203)
 
