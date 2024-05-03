@@ -1,74 +1,77 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Endrex Martin Akoto - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio! I'm Endrex Martin Akoto, a dedicated Full Stack Software Engineer with a specialization in Front-end development. With a strong foundation in IT and certifications in Full Stack Software Engineering-Front-end from ALX Africa - Holberton School, I'm passionate about leveraging technology to create innovative solutions and enhance user experiences.
 
-## Available Scripts
+## Education and Experience
 
-In the project directory, you can run:
+I hold a Diploma in Information Technology from Jomo Kenyatta University of Agriculture and Technology, along with a Certificate in Information Technology from the same institution. This academic background complements my practical experience gained as a  IT Support Technician at the Regional Blood Transfusion Center - Eldoret. In this role, I provided technical support and troubleshooting assistance to end-users, managed the Blood Management System, and collaborated with the IT team to implement network upgrades and security enhancements. My experience in IT support has honed my problem-solving skills and reinforced my commitment to delivering high-quality technical solutions.
 
-### `npm start`
+## Skills
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Programming Languages:
+- Python
+- JavaScript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Front-end Development:
+- HTML
+- CSS (including SCSS and Less)
+- React.js
+- Angular
+- Vue.js
+- Bootstrap
+- Tailwind CSS
 
-### `npm test`
+### Back-end Development:
+- Express.js
+- Flask
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Networking:
+- Setup
+- Maintenance
+- Security
 
-### `npm run build`
+### Data Analysis:
+- PowerBI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tools:
+- Microsoft Office
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Short Courses
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Introduction to Microsoft 
+    - Explored the basics of Microsoft applications and tools, gaining fundamental skills in Microsoft Office Suite.
 
-### `npm run eject`
+- Create a Website Using WordPress: Free Hosting & Sub-domain 
+    - Learned to design and develop websites using WordPress, including hosting setup and sub-domain creation.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Endpoint Security 
+    - Studied the principles and practices of endpoint security, focusing on safeguarding network endpoints from cybersecurity threats.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Certificate Data Analysis 
+    - Acquired skills in data analysis techniques and tools, including data visualization and interpretation.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Cisco Computer Hardware Basics 
+    - Explored the fundamentals of computer hardware components and troubleshooting techniques.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Certificate Work with Computers 
+    - Developed proficiency in basic computer operations and software applications.
 
-## Learn More
+- Getting Started in Google Analytics 
+    - Learned the basics of Google Analytics for website tracking and analysis, including setting up accounts and interpreting reports.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Certificate in Technical Support Fundamentals 
+    - Gained foundational knowledge in technical support principles and practices, focusing on troubleshooting hardware and software issues.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Projects
 
-### Code Splitting
+Stay tuned for updates on my latest projects and contributions!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact Information
 
-### Analyzing the Bundle Size
+[![Email](email_icon.png)](mailto:martinakoto25@gmail.com)
+[![Phone](phone_icon.png)](tel:+254718424798)
+[![GitHub](github_icon.png)](https://github.com/EndrexAkoto)
+[![Facebook](facebook_icon.png)](https://www.facebook.com/your_facebook_username)
+[![Twitter](twitter_icon.png)](https://twitter.com/your_twitter_username)
+[![LinkedIn](linkedin_icon.png)](https://www.linkedin.com/in/your_linkedin_username)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# portfolio
->>>>>>> 1bca9fb6554c193ac6254fb9e7986f9804a07b6b
