@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7c16f99d.css",
+    "main.js": "/portfolio/static/js/main.6ceaf925.js",
+    "static/media/reactParallax.jpg": "/portfolio/static/media/reactParallax.6f0d02a0def925fc9d7f.jpg",
+    "static/media/heroImage.png": "/portfolio/static/media/heroImage.ac283f01d3bc6a511820.png",
+    "static/media/graphql.png": "/portfolio/static/media/graphql.fc6b9451733c620ceb86.png",
+    "static/media/reactSmooth.jpg": "/portfolio/static/media/reactSmooth.a2ffb0a8d6db6a651603.jpg",
+    "static/media/arrayDestruct.jpg": "/portfolio/static/media/arrayDestruct.84671dfd109d4de76bae.jpg",
+    "static/media/navbar.jpg": "/portfolio/static/media/navbar.7ce4ddd4bd6a2fa48cd5.jpg",
+    "static/media/installNode.jpg": "/portfolio/static/media/installNode.16b2cb6d162eaa8d6fb5.jpg",
+    "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/Bootstrap_logo.png": "/portfolio/static/media/Bootstrap_logo.85f40b48f68defc8b8d4.png",
+    "static/media/nextjs.png": "/portfolio/static/media/nextjs.48ddc8121a0fcb543d64.png",
+    "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio/index.html",
+    "main.7c16f99d.css.map": "/portfolio/static/css/main.7c16f99d.css.map",
+    "main.6ceaf925.js.map": "/portfolio/static/js/main.6ceaf925.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c16f99d.css",
+    "static/js/main.6ceaf925.js"
+  ]
+}
