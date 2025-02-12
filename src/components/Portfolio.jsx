@@ -1,34 +1,64 @@
-import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import React from "react"
+import AgrilandConnect from "../assets/portfolio/Argriland-Connect.png"
+import CodeCard from "../assets/portfolio/Code_Card.png"
+import WeatherApp from "../assets/portfolio/Weather_App.png" 
+import TrafficViolationReportingSystem from "../assets/portfolio/SkillHive.png"
+import SmartHomeAutmationSystem from "../assets/portfolio/Smart_Home_Autmation_System.png"
+import Telemedicine from "../assets/portfolio/Telemedicine.png"
+import githubstatsapps from "../assets/portfolio/githubstatsapps.png"
+import SkillHive from "../assets/portfolio/SkillHive.png"
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: AgrilandConnect,
+      title: "Agriland-Connect",
+      link: "",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: CodeCard,
+      title: "Code_Card",
+      link: "https://github.com/EndrexAkoto/Code_Card.git",
     },
     {
       id: 3,
-      src: navbar,
+      src: WeatherApp,
+      title: "weather_application",
+      link: "https://github.com/EndrexAkoto/weather_application.git",
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: TrafficViolationReportingSystem,
+      title: "Traffic_Violation_Reporting_System",
+      link: "https://github.com/EndrexAkoto/Traffic_Violation_Reporting_System.git",
     },
     {
       id: 5,
-      src: installNode,
+      src: SmartHomeAutmationSystem,
+      title: "Smart_Home_Autmation_System",
+      link: "https://github.com/EndrexAkoto/Smart_Home_Autmation_System.git",
     },
-  
-  ];
+    {
+      id: 6,
+      src: Telemedicine,
+      title: "Telemedicine",
+      link: "https://github.com/EndrexAkoto/Telemedicine-.git",
+    },
+    {
+      id: 7,
+      src: githubstatsapps,
+      title: "github_stats_apps",
+      link: "https://github.com/EndrexAkoto/github_stats_app.git",
+    },
+    {
+      id: 8,
+      src: SkillHive,
+      title: "SkillHive",
+      link: "https://github.com/EndrexAkoto/SkillHive.git",
+    },
+  ]
 
   return (
     <div
@@ -44,19 +74,22 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, title, link }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              /> 
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={src}
+                  alt={title}
+                  className="rounded-md duration-200 hover:scale-105"
+                />
+                <p className="text-center mt-2">{title}</p>
+              </a>
             </div>
           ))}
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio
