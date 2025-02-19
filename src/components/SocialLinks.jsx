@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 const SocialLinks = () => {
@@ -31,6 +31,16 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:foo@gmail.com",
+    },
+    {
+      id: 4,
+      child: (
+        <>
+          WhatsApp <FaWhatsapp size={30} />
+        </>
+      ),
+      href: "https://wa.me/254718424798",
+      style: "rounded-br-md",
     },
   ];
 

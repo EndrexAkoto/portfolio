@@ -5,7 +5,7 @@ import WeatherApp from "../assets/portfolio/Weather_App.png"
 import TrafficViolationReportingSystem from "../assets/portfolio/SkillHive.png"
 import SmartHomeAutmationSystem from "../assets/portfolio/Smart_Home_Autmation_System.png"
 import Telemedicine from "../assets/portfolio/Telemedicine.png"
-import githubstatsapps from "../assets/portfolio/githubstatsapps.png"
+import githubstatsapps from "../assets/portfolio/Weather_App.png"
 import SkillHive from "../assets/portfolio/SkillHive.png"
 
 const Portfolio = () => {
@@ -63,7 +63,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

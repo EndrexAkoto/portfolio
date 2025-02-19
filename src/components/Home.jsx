@@ -1,7 +1,7 @@
-import React from "react";
-import HeroImage from "../assets/heroImage.png";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
+import React from "react"
+import HeroImage from "../assets/heroImage.png"
+import { MdOutlineKeyboardArrowRight } from "react-icons/md"
+import { Link } from "react-scroll"
 
 const Home = () => {
   return (
@@ -12,11 +12,11 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-3xl sm:text-5xl font-bold text-white">
-          Full Stack Software Engineering-Front-end
+          Full Stack Software Engineering
           </h2>
           <p className="text-gray-400 py-70 max-w-md">
-          I am a versatile professional in Full Stack Software Engineering with expertise in Front-end development and training in Information Technology. I hold certifications in CCNA Routing and Switching from the Cisco Certified Networking Academy, as well as specialized courses in Endpoint Security and CISCO Computer Hardware Basics. I have honed my analytical skills through programs in Data Analysis and Computer Operations, and gained proficiency in Technical Support Fundamentals and Google Analytics.
-          </p>
+          Highly skilled Full Stack Software Engineer with a strong background in Information Technology, IoT, and networking. Proficient in Python, JavaScript, HTML, CSS, React.js, and experienced in enhancing system performance and data accuracy. Adapt in IoT systems, software engineering principles, database management, and system analysis. Committed to leveraging networking expertise and software development skills to drive innovation in a dynamic tech environment.
+      </p>
 
           <div>
             <Link
@@ -42,7 +42,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
