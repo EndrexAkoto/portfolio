@@ -2,10 +2,10 @@ import React from "react"
 import AgrilandConnect from "../assets/portfolio/Argriland-Connect.png"
 import CodeCard from "../assets/portfolio/Code_Card.png"
 import WeatherApp from "../assets/portfolio/Weather_App.png" 
-import TrafficViolationReportingSystem from "../assets/portfolio/SkillHive.png"
+import TrafficViolationReportingSystem from "../assets/portfolio/TrafficViolationReportingSystem.png"
 import SmartHomeAutmationSystem from "../assets/portfolio/Smart_Home_Autmation_System.png"
 import Telemedicine from "../assets/portfolio/Telemedicine.png"
-import githubstatsapps from "../assets/portfolio/Weather_App.png"
+import githubstatsapps from "../assets/portfolio/githubstatsapps.png"
 import SkillHive from "../assets/portfolio/SkillHive.png"
 
 const Portfolio = () => {
