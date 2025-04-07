@@ -14,7 +14,7 @@ const Portfolio = () => {
       id: 1,
       src: AgrilandConnect,
       title: "Agriland-Connect",
-      link: "www.agrilandconnect.com",
+      link: "https://agrilandconnect.com/",
     },
     {
       id: 2,
