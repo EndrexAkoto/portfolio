@@ -14,7 +14,7 @@ const Portfolio = () => {
       id: 1,
       src: AgrilandConnect,
       title: "Agriland-Connect",
-      link: "",
+      link: "www.agrilandconnect.com",
     },
     {
       id: 2,
@@ -56,7 +56,7 @@ const Portfolio = () => {
       id: 8,
       src: SkillHive,
       title: "SkillHive",
-      link: "https://github.com/EndrexAkoto/SkillHive.git",
+      link: "https://skillhive.netlify.app/",
     },
   ]
 
