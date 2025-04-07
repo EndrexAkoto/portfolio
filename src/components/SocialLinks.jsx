@@ -6,69 +6,68 @@ const SocialLinks = () => {
   const links = [
     {
       id: 1,
-      child: (
-        <>
-          LinkedIn <FaLinkedin size={30} />
-        </>
-      ),
+      icon: <FaLinkedin size={25} />,
+      label: "LinkedIn",
       href: "https://linkedin.com/in/endrex-akoto-02184b203",
-      style: "rounded-tr-md",
     },
     {
       id: 2,
-      child: (
-        <>
-          GitHub <FaGithub size={30} />
-        </>
-      ),
+      icon: <FaGithub size={25} />,
+      label: "GitHub",
       href: "https://github.com/EndrexAkoto",
     },
     {
       id: 3,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
+      icon: <HiOutlineMail size={25} />,
+      label: "Mail",
       href: "mailto:foo@gmail.com",
     },
     {
       id: 4,
-      child: (
-        <>
-          WhatsApp <FaWhatsapp size={30} />
-        </>
-      ),
+      icon: <FaWhatsapp size={25} />,
+      label: "WhatsApp",
       href: "https://wa.me/254718424798",
-      style: "rounded-br-md",
     },
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
-      <ul>
-        {links.map(({ id, child, href, style, download }) => (
-          <li
-            key={id}
-            className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
-              " " +
-              style
-            }
-          >
-            <a
-              href={href}
-              className="flex justify-between items-center w-full text-white"
-              download={download}
-              target="_blank"
-              rel="noreferrer"
+    <>
+      {/* Sidebar for large screens */}
+      <div className="hidden lg:flex flex-col top-[35%] left-0 fixed z-50">
+        <ul>
+          {links.map(({ id, label, icon, href }) => (
+            <li
+              key={id}
+              className="flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 text-white"
             >
-              {child}
-            </a>
-          </li>
+              <a
+                href={href}
+                className="flex justify-between items-center w-full"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {label} {icon}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Bottom bar for small screens */}
+      <div className="fixed bottom-0 left-0 right-0 bg-gray-800 p-2 flex justify-around items-center text-white lg:hidden z-50">
+        {links.map(({ id, icon, href }) => (
+          <a
+            key={id}
+            href={href}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-cyan-400 transition"
+          >
+            {icon}
+          </a>
         ))}
-      </ul>
-    </div>
+      </div>
+    </>
   );
 };
 
