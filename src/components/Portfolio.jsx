@@ -21,7 +21,7 @@ const Portfolio = () => {
       id: 2,
       src: Breathe,
       title: "Breathe",
-      link: "https://www.breathehaus.com",
+      link: "https://breathehaus.com",
     },
     {
       id: 3,
