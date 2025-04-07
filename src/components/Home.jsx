@@ -1,7 +1,7 @@
-import React from "react"
-import HeroImage from "../assets/heroImage.png"
-import { MdOutlineKeyboardArrowRight } from "react-icons/md"
-import { Link } from "react-scroll"
+import React from "react";
+import HeroImage from "../assets/heroImage.png";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -42,16 +42,16 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="mt-10 md:mt-0">
+        <div>
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full max-w-xs md:max-w-sm"
+            className="rounded-full mx-auto w-100 h-300 md:w-250 md:h-700"
           />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
