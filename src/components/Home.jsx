@@ -1,7 +1,7 @@
-import React from "react";
-import HeroImage from "../assets/heroImage.png";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
+import React from "react"
+import HeroImage from "../assets/heroImage.png"
+import { MdOutlineKeyboardArrowRight } from "react-icons/md"
+import { Link } from "react-scroll"
 
 const Home = () => {
   return (
@@ -31,14 +31,7 @@ const Home = () => {
               </span>
             </Link>
 
-            <a
-              href="https://www.effectiveratecpm.com/uegh9n4f2g?key=3cb621c4283cd2b8631442dfe26ad1bd"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-center px-6 py-3 bg-green-600 text-white rounded-md shadow-md hover:bg-green-700 transition"
-            >
-              Support My Work
-            </a>
+          
           </div>
         </div>
 
@@ -51,7 +44,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
