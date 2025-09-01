@@ -1,4 +1,5 @@
 import React from "react"
+import TheHookClub from "../assets/portfolio/TheHookClub.jpg"
 import AgrilandConnect from "../assets/portfolio/Argriland-Connect.png"
 import Breathe from "../assets/portfolio/Breathe.png"
 import CodeCard from "../assets/portfolio/Code_Card.png"
@@ -13,54 +14,60 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: TheHookClub,
+      title: "TheHookClub",
+      link: "https://thehookclub.nyc",
+    },
+    {
+      id: 2,
       src: AgrilandConnect,
       title: "Agriland-Connect",
       link: "https://agrilandconnect.com/",
     },
     {
-      id: 2,
+      id: 3,
       src: Breathe,
       title: "Breathe",
       link: "https://breathehaus.com",
     },
     {
-      id: 3,
+      id: 4,
       src: CodeCard,
       title: "Code_Card",
       link: "https://github.com/EndrexAkoto/Code_Card.git",
     },
     {
-      id: 4,
+      id: 5,
       src: WeatherApp,
       title: "weather_application",
       link: "https://github.com/EndrexAkoto/weather_application.git",
     },
     {
-      id: 5,
+      id: 6,
       src: TrafficViolationReportingSystem,
       title: "Traffic_Violation_Reporting_System",
       link: "https://github.com/EndrexAkoto/Traffic_Violation_Reporting_System.git",
     },
     {
-      id: 6,
+      id: 7,
       src: SmartHomeAutmationSystem,
       title: "Smart_Home_Autmation_System",
       link: "https://github.com/EndrexAkoto/Smart_Home_Autmation_System.git",
     },
     {
-      id: 7,
+      id: 8,
       src: Telemedicine,
       title: "Telemedicine",
       link: "https://github.com/EndrexAkoto/Telemedicine-.git",
     },
     {
-      id: 8,
+      id: 9,
       src: githubstatsapps,
       title: "github_stats_apps",
       link: "https://github.com/EndrexAkoto/github_stats_app.git",
     },
     {
-      id: 9,
+      id: 10,
       src: SkillHive,
       title: "SkillHive",
       link: "https://skillhive.netlify.app/",

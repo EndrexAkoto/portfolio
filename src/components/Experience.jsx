@@ -1,25 +1,29 @@
-import React from "react";
+import React from "react"
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
-import bootstrap from "../assets/Bootstrap_logo.png";
-import python from "../assets/python.jpg";
-import flask from "../assets/flask.png";
-import express from "../assets/express.png";
-import postgresql from "../assets/postgres.png";
-import mysql from "../assets/mysql.png";
-import sqlite from "../assets/sqllite.jpg";
-import cpp from "../assets/cpp.jpg";
-import arduino from "../assets/adruino.png";
-import raspberryPi from "../assets/rasberry.png";
-import edgeImpulse from "../assets/edgeimpulse.png";
-import opencv from "../assets/opencv.png";
+import Cisco from "../assets/Cisco.jpg"
+import Cisco_banners from "../assets/Cisco_banners.png"
+import ciscoccna from "../assets/ciscoccna.png"
+import CISCO_cheat from "../assets/CISCO_cheat.jpg"
+import html from "../assets/html.png"
+import css from "../assets/css.png"
+import javascript from "../assets/javascript.png"
+import reactImage from "../assets/react.png"
+import nextjs from "../assets/nextjs.png"
+import graphql from "../assets/graphql.png"
+import github from "../assets/github.png"
+import tailwind from "../assets/tailwind.png"
+import bootstrap from "../assets/Bootstrap_logo.png"
+import python from "../assets/python.jpg"
+import flask from "../assets/flask.png"
+import express from "../assets/express.png"
+import postgresql from "../assets/postgres.png"
+import mysql from "../assets/mysql.png"
+import sqlite from "../assets/sqllite.jpg"
+import cpp from "../assets/cpp.jpg"
+import arduino from "../assets/adruino.png"
+import raspberryPi from "../assets/rasberry.png"
+import edgeImpulse from "../assets/edgeimpulse.png"
+import opencv from "../assets/opencv.png"
 
 const Experience = () => {
   const techs = [
@@ -43,7 +47,11 @@ const Experience = () => {
     { id: 18, src: raspberryPi, title: "Raspberry Pi", style: "shadow-red-600" },
     { id: 19, src: edgeImpulse, title: "Edge Impulse", style: "shadow-green-600" },
     { id: 20, src: opencv, title: "OpenCV", style: "shadow-green-400" },
-  ];
+    { id: 21, src: Cisco, title: "Cisco", style: "shadow-blue-500" },
+    { id: 22, src: Cisco_banners, title: "Cisco Banner", style: "shadow-blue-400" },
+    { id: 23, src: ciscoccna, title: "Cisco CCNA", style: "shadow-green-600" },
+    { id: 24, src: CISCO_cheat, title: "Cisco Cheat Sheet", style: "shadow-gray-500" },
+  ]
 
   return (
     <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full md:min-h-screen">
@@ -65,7 +73,7 @@ const Experience = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Experience;
+export default Experience
