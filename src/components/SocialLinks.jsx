@@ -38,7 +38,7 @@ const SocialLinks = () => {
           {links.map(({ id, label, icon, href }) => (
             <li
               key={id}
-              className="flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 text-white"
+              className="flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-black hover:bg-cyan-500 text-white"
             >
               <a
                 href={href}
@@ -53,8 +53,8 @@ const SocialLinks = () => {
         </ul>
       </div>
 
-      {/* Bottom bar for small screens */}
-      <div className="fixed bottom-0 left-0 right-0 bg-gray-800 p-2 flex justify-around items-center text-white lg:hidden z-50">
+      {/* Bottom bar for small screens - scrolls with page */}
+      <div className="lg:hidden w-full bg-black p-2 flex justify-around items-center text-white rounded-t-md shadow-lg mt-4">
         {links.map(({ id, icon, href }) => (
           <a
             key={id}

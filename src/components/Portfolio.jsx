@@ -1,5 +1,8 @@
 import React from "react"
-import TheHookClub from "../assets/portfolio/TheHookClub.jpg"
+// import DeutschePoint from "../assets/portfolio/"
+import MakeUpByRose from "../assets/portfolio/makeupbyrose.png"
+import WeDropTech from "../assets/portfolio/wedroptech.png"
+import TheHookClub from "../assets/portfolio/TheHookClub.png"
 import AgrilandConnect from "../assets/portfolio/Argriland-Connect.png"
 import Breathe from "../assets/portfolio/Breathe.png"
 import CodeCard from "../assets/portfolio/Code_Card.png"
@@ -12,62 +15,80 @@ import SkillHive from "../assets/portfolio/SkillHive.png"
 
 const Portfolio = () => {
   const portfolios = [
-    {
+    /*{
       id: 1,
+      src: DeutschePoint,
+      title: "DeutschePoint",
+      link: "",
+    },*/
+    {
+      id: 2,
+      src: MakeUpByRose,
+      title: "MakeUpByRose",
+      link: "https://makeupbyrosekenya.com",
+    },
+    {
+      id: 3,
+      src: WeDropTech,
+      title: "WeDropTech",
+      link: "https://wedroptech.com",
+    },
+    {
+      id: 4,
       src: TheHookClub,
       title: "TheHookClub",
       link: "https://thehookclub.nyc",
     },
     {
-      id: 2,
+      id: 5,
       src: AgrilandConnect,
       title: "Agriland-Connect",
       link: "https://agrilandconnect.com/",
     },
     {
-      id: 3,
+      id: 6,
       src: Breathe,
       title: "Breathe",
       link: "https://breathehaus.com",
     },
     {
-      id: 4,
+      id: 7,
       src: CodeCard,
       title: "Code_Card",
       link: "https://github.com/EndrexAkoto/Code_Card.git",
     },
     {
-      id: 5,
+      id: 8,
       src: WeatherApp,
       title: "weather_application",
       link: "https://github.com/EndrexAkoto/weather_application.git",
     },
     {
-      id: 6,
+      id: 9,
       src: TrafficViolationReportingSystem,
       title: "Traffic_Violation_Reporting_System",
       link: "https://github.com/EndrexAkoto/Traffic_Violation_Reporting_System.git",
     },
     {
-      id: 7,
+      id: 10,
       src: SmartHomeAutmationSystem,
       title: "Smart_Home_Autmation_System",
       link: "https://github.com/EndrexAkoto/Smart_Home_Autmation_System.git",
     },
     {
-      id: 8,
+      id: 11,
       src: Telemedicine,
       title: "Telemedicine",
       link: "https://github.com/EndrexAkoto/Telemedicine-.git",
     },
     {
-      id: 9,
+      id: 12,
       src: githubstatsapps,
       title: "github_stats_apps",
       link: "https://github.com/EndrexAkoto/github_stats_app.git",
     },
     {
-      id: 10,
+      id: 13,
       src: SkillHive,
       title: "SkillHive",
       link: "https://skillhive.netlify.app/",
