@@ -13,7 +13,7 @@ const Home = () => {
         {/* Text Section */}
         <div className="flex flex-col justify-center h-full">
           <h1 className="text-3xl sm:text-5xl font-bold text-white">
-            Full Stack Software Engineer & Robotics and IoT Developer
+            Full Stack Software Engineer | Robotics and IoT Developer
           </h1>
 
           <p className="text-gray-400 py-4 max-w-md">
