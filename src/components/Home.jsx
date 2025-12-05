@@ -1,7 +1,7 @@
-import React from "react";
-import HeroImage from "../assets/heroImage.png";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
+import React from "react"
+import HeroImage from "../assets/heroImage.png"
+import { MdOutlineKeyboardArrowRight } from "react-icons/md"
+import { Link } from "react-scroll"
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
         {/* Text Section */}
         <div className="flex flex-col justify-center h-full">
           <h1 className="text-3xl sm:text-5xl font-bold text-white">
-            Full Stack Software Engineer & IoT Developer
+            Full Stack Software Engineer & Robotics and IoT Developer
           </h1>
 
           <p className="text-gray-400 py-4 max-w-md">
@@ -53,7 +53,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
