@@ -44,5 +44,13 @@
     "@types/react": "16.14.56",
     "@types/react-dom": "16.9.24",
     "typescript": "4.9.5"
+  },
+  "overrides": {
+    "jsdom": {
+      "ws": "7.5.11"
+    },
+    "webpack-dev-server": {
+      "ws": "8.21.0"
+    }
   }
 }
