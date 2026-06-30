@@ -2,3 +2,7 @@
 node_modules/
 .fake
 .vercel
+
+# Build output
+dist/
+build/
